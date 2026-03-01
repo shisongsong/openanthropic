@@ -1,0 +1,7 @@
+[
+  { "label": "Home", "href": "/" },
+  { "label": "Platform", "href": "/platform" },
+  { "label": "Research", "href": "/research" },
+  { "label": "News", "href": "/news" },
+  { "label": "About", "href": "/about" }
+]

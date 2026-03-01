@@ -1,0 +1,31 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: openanthropic-web
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+
+  tunnel-quick:
+    image: cloudflare/cloudflared:latest
+    container_name: openanthropic-tunnel-quick
+    restart: unless-stopped
+    command: tunnel --no-autoupdate --url http://web:3000
+    depends_on:
+      - web
+    profiles:
+      - quick
+
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: openanthropic-tunnel
+    restart: unless-stopped
+    command: tunnel --no-autoupdate --config /etc/cloudflared/config.yml run
+    volumes:
+      - ./cloudflared:/etc/cloudflared:ro
+    depends_on:
+      - web
+    profiles:
+      - named

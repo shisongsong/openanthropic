@@ -1,0 +1,77 @@
+{
+  "slug": "platform",
+  "seo": {
+    "title": "Platform | Open Frontier",
+    "description": "Explore practical model capabilities for coding, analysis, drafting, and workflow automation."
+  },
+  "hero": {
+    "eyebrow": "Platform",
+    "title": "A model platform built for clear reasoning and reliable execution.",
+    "subtitle": "Use one interface for drafting, coding, planning, and tool-driven automation across your team.",
+    "ctaPrimary": { "label": "View Research", "href": "/research", "style": "primary" },
+    "ctaSecondary": { "label": "Read News", "href": "/news", "style": "secondary" }
+  },
+  "sections": [
+    {
+      "type": "featureGrid",
+      "heading": "Capabilities that matter in production",
+      "items": [
+        {
+          "title": "Technical reasoning",
+          "description": "Solve multi-step tasks in engineering, analytics, and planning with coherent intermediate reasoning."
+        },
+        {
+          "title": "Code generation and review",
+          "description": "Draft implementation options, explain tradeoffs, and enforce style and safety constraints."
+        },
+        {
+          "title": "Structured outputs",
+          "description": "Emit stable JSON contracts and schema-aware responses for integration into backend systems."
+        },
+        {
+          "title": "Long-session reliability",
+          "description": "Sustain context across deep sessions without losing objective, policy, or formatting fidelity."
+        },
+        {
+          "title": "Multimodal understanding",
+          "description": "Combine text and visual references to support richer analysis and workflow automation."
+        },
+        {
+          "title": "Safer defaults",
+          "description": "Designed with explicit handling for misuse resistance and constrained generation patterns."
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "panels": [
+        {
+          "eyebrow": "Developer Workflow",
+          "title": "Integrate with your existing stack",
+          "body": "Keep your current architecture while adding AI capabilities through API, gateway, and tool orchestration layers.",
+          "bullets": [
+            "HTTP and SDK integrations",
+            "Streaming responses",
+            "Evaluation hooks in CI"
+          ]
+        },
+        {
+          "eyebrow": "Enterprise",
+          "title": "Governance without friction",
+          "body": "Set role-based access, model permissions, and data controls in one policy layer used across teams.",
+          "bullets": [
+            "Scoped API credentials",
+            "Project-level controls",
+            "Centralized audit events"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Move from demos to durable AI features",
+      "text": "Use the same workflow in local development, staging, and customer-facing production.",
+      "action": { "label": "Start with Home", "href": "/", "style": "primary" }
+    }
+  ]
+}

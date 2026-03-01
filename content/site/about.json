@@ -1,0 +1,57 @@
+{
+  "slug": "about",
+  "seo": {
+    "title": "About | Open Frontier",
+    "description": "Open Frontier builds dependable AI systems with strong safety and operational clarity."
+  },
+  "hero": {
+    "eyebrow": "About",
+    "title": "A research-driven company focused on practical, dependable AI.",
+    "subtitle": "We build products that combine model capability, transparent constraints, and operational confidence for real teams.",
+    "ctaPrimary": { "label": "See Home", "href": "/", "style": "primary" },
+    "ctaSecondary": { "label": "Open News", "href": "/news", "style": "secondary" }
+  },
+  "sections": [
+    {
+      "type": "text",
+      "heading": "Our principles",
+      "paragraphs": [
+        "We prioritize usefulness under constraints: capabilities must be paired with explicit limits and reliable deployment behavior.",
+        "We default to measurable quality. If a feature cannot be evaluated in realistic workflows, it is not ready for broad use.",
+        "We optimize for long-term trust by designing products, policies, and operations as one integrated system."
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "Operating model",
+      "panels": [
+        {
+          "eyebrow": "Team",
+          "title": "Cross-functional by default",
+          "body": "Researchers, engineers, and deployment specialists share ownership from prototype through production rollout.",
+          "bullets": [
+            "Shared review checkpoints",
+            "Unified release criteria",
+            "Continuous incident learning"
+          ]
+        },
+        {
+          "eyebrow": "Execution",
+          "title": "Safety and product ship together",
+          "body": "Release plans include both user value milestones and explicit risk controls to avoid last-minute tradeoff debt.",
+          "bullets": [
+            "Policy-informed design",
+            "Scenario-based red teaming",
+            "Post-launch monitoring loops"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to launch your production domain",
+      "text": "Run this site locally, share through Cloudflare Tunnel, then cut over to your primary domain after DNS is ready.",
+      "action": { "label": "Deployment Guide", "href": "#deployment", "style": "primary" }
+    }
+  ]
+}

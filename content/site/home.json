@@ -1,0 +1,105 @@
+{
+  "slug": "home",
+  "seo": {
+    "title": "Open Frontier | Practical AI for Real Work",
+    "description": "A high-clarity AI platform for teams that need robust reasoning, safe deployment patterns, and production-grade reliability."
+  },
+  "hero": {
+    "eyebrow": "Frontier Intelligence, Delivered Clearly",
+    "title": "Build with reliable AI systems that scale from prototype to production.",
+    "subtitle": "Open Frontier combines model capability, safety controls, and deployment ergonomics into one coherent product experience.",
+    "ctaPrimary": { "label": "Start Building", "href": "/platform", "style": "primary" },
+    "ctaSecondary": { "label": "Read Research", "href": "/research", "style": "secondary" }
+  },
+  "sections": [
+    {
+      "type": "featureGrid",
+      "heading": "A complete platform, not just an API endpoint",
+      "intro": "Designed for product teams that care about quality, control, and predictable behavior under real-world load.",
+      "items": [
+        {
+          "tag": "Capability",
+          "title": "Long-context reasoning",
+          "description": "Handle complex, multi-document workflows with consistency across long conversations and large input sets."
+        },
+        {
+          "tag": "Safety",
+          "title": "Configurable guardrails",
+          "description": "Apply policy layers and risk controls by use case, with clear boundaries for high-stakes tasks."
+        },
+        {
+          "tag": "Operations",
+          "title": "Production observability",
+          "description": "Inspect model usage, latency profiles, and behavioral drift to keep quality stable over time."
+        },
+        {
+          "tag": "Workflow",
+          "title": "Tool-using agents",
+          "description": "Compose model calls with tools and structured outputs to automate end-to-end workflows."
+        },
+        {
+          "tag": "Performance",
+          "title": "Low-latency serving",
+          "description": "Optimize response speed with routing and caching strategies tuned for interactive applications."
+        },
+        {
+          "tag": "Governance",
+          "title": "Enterprise controls",
+          "description": "Support role-based access, key rotation, and deployment controls for compliance-sensitive teams."
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "From experiment to dependable product",
+      "panels": [
+        {
+          "eyebrow": "Build",
+          "title": "Ship faster with reusable blocks",
+          "body": "Standardized prompts, test suites, and evaluation loops reduce time spent debugging model behavior in late stages.",
+          "bullets": [
+            "Versioned prompt assets",
+            "Regression-aware eval routines",
+            "Structured response contracts"
+          ]
+        },
+        {
+          "eyebrow": "Operate",
+          "title": "Keep quality stable after launch",
+          "body": "Capture runtime signals and feed them back into model policy and prompt revisions before they become user-facing incidents.",
+          "bullets": [
+            "Latency and failure tracking",
+            "Risk tiering by workflow",
+            "Continuous quality review"
+          ],
+          "cta": { "label": "See News", "href": "/news", "style": "secondary" }
+        }
+      ]
+    },
+    {
+      "type": "logoWall",
+      "heading": "Trusted by teams in research, finance, health, and software",
+      "logos": [
+        { "name": "Northline" },
+        { "name": "Pioneer Labs" },
+        { "name": "Arcwell" },
+        { "name": "Beacon Systems" },
+        { "name": "Helix Capital" },
+        { "name": "Mercury Bio" }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Clear safety boundaries and strong model quality let us move fast without compromising standards.",
+      "author": "Jordan Lee",
+      "role": "Head of AI Platform, Northline"
+    },
+    {
+      "type": "cta",
+      "heading": "Deploy your first production workflow this week",
+      "text": "Run locally, iterate quickly, and expose securely through Cloudflare Tunnel while you finalize production infrastructure.",
+      "action": { "label": "Open Local Deployment", "href": "/about", "style": "primary" },
+      "secondaryAction": { "label": "Explore Platform", "href": "/platform", "style": "secondary" }
+    }
+  ]
+}

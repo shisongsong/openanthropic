@@ -1,0 +1,47 @@
+{
+  "slug": "news",
+  "seo": {
+    "title": "News | Open Frontier",
+    "description": "Product launches, model updates, research notes, and company milestones."
+  },
+  "hero": {
+    "eyebrow": "Newsroom",
+    "title": "Updates from product, research, and company operations.",
+    "subtitle": "Track what changed, why it matters, and how to adopt updates in your workflows.",
+    "ctaPrimary": { "label": "Explore Platform", "href": "/platform", "style": "primary" },
+    "ctaSecondary": { "label": "Read Research", "href": "/research", "style": "secondary" }
+  },
+  "sections": [
+    {
+      "type": "newsList",
+      "heading": "Latest announcements",
+      "intro": "Replace these placeholders with your official launch notes and publication links.",
+      "items": [
+        {
+          "dateISO": "2026-02-24",
+          "title": "Site preview deployed through Cloudflare Tunnel",
+          "excerpt": "A full multi-page marketing site is now available for remote review while running from your local service stack.",
+          "href": "#"
+        },
+        {
+          "dateISO": "2026-02-20",
+          "title": "Workflow templates for enterprise onboarding",
+          "excerpt": "New workflow blueprints improve first-week adoption for engineering and operations teams.",
+          "href": "#"
+        },
+        {
+          "dateISO": "2026-02-12",
+          "title": "Research note: evaluation loops for long-context reliability",
+          "excerpt": "Practical methods for detecting context drift and maintaining response quality over extended sessions.",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Need a press-ready version?",
+      "text": "Once you provide final copy and media, this structure can be updated page-by-page without refactoring components.",
+      "action": { "label": "Go to About", "href": "/about", "style": "primary" }
+    }
+  ]
+}

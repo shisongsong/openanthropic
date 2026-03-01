@@ -1,0 +1,67 @@
+{
+  "slug": "research",
+  "seo": {
+    "title": "Research | Open Frontier",
+    "description": "Research, evaluations, and safety methods behind dependable AI systems."
+  },
+  "hero": {
+    "eyebrow": "Research",
+    "title": "We treat capability and safety as one engineering problem.",
+    "subtitle": "Our research pipeline aligns model improvements with practical guardrails, evaluations, and deployment behavior.",
+    "ctaPrimary": { "label": "See Publications", "href": "/news", "style": "primary" },
+    "ctaSecondary": { "label": "About the Team", "href": "/about", "style": "secondary" }
+  },
+  "sections": [
+    {
+      "type": "featureGrid",
+      "heading": "Current focus areas",
+      "items": [
+        {
+          "tag": "Alignment",
+          "title": "Intent-faithful behavior",
+          "description": "Develop methods that preserve user intent while rejecting unsafe or manipulative trajectories."
+        },
+        {
+          "tag": "Evaluation",
+          "title": "Task-grounded benchmarks",
+          "description": "Measure useful quality on realistic, multi-step workflows rather than narrow synthetic tasks."
+        },
+        {
+          "tag": "Interpretability",
+          "title": "Mechanistic insight",
+          "description": "Analyze internal behaviors to detect brittle strategies and improve model robustness."
+        },
+        {
+          "tag": "Robustness",
+          "title": "Adversarial stress tests",
+          "description": "Probe edge-case prompts and tool interactions to identify failure modes before release."
+        },
+        {
+          "tag": "Systems",
+          "title": "Inference reliability",
+          "description": "Improve serving consistency under latency constraints and dynamic production workloads."
+        },
+        {
+          "tag": "Human factors",
+          "title": "Operator-in-the-loop design",
+          "description": "Create interfaces that keep humans informed and in control during critical decisions."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "How we work",
+      "paragraphs": [
+        "Research projects are scoped with explicit deployment assumptions, evaluation design, and clear failure criteria from day one.",
+        "Each milestone includes paired outputs: capability gains and corresponding safety constraints, then a deployment playbook for practitioners.",
+        "This reduces the gap between lab results and production outcomes, especially for enterprise and regulated domains."
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Reliability is not a nice-to-have property. It is the product.",
+      "author": "Mina Park",
+      "role": "Research Lead, Open Frontier"
+    }
+  ]
+}

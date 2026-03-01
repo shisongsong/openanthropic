@@ -1,0 +1,10 @@
+# Named tunnel configuration for openanthropic.com.
+tunnel: 07fda85f-2f95-4fbe-a628-2762a63156d8
+credentials-file: /etc/cloudflared/07fda85f-2f95-4fbe-a628-2762a63156d8.json
+
+ingress:
+  - hostname: openanthropic.com
+    service: http://web:3000
+  - hostname: www.openanthropic.com
+    service: http://web:3000
+  - service: http_status:404
