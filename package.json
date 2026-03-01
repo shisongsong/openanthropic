@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build:cloudflare": "next build && npx @cloudflare/next-on-pages --output out",
+    "build:cloudflare": "next build && npx @cloudflare/next-on-pages --outdir out",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
